@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50525" started-at="2017-08-12T03:23:39Z" finished-at="2017-08-12T03:24:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50525" started-at="2017-08-12T03:23:39Z" finished-at="2017-08-12T03:24:30Z">
+      <class name="orrangehrm.OrrangeHrm">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:orrangehrm.OrrangeHrm@50c87b21]" name="startBrowser" is-config="true" duration-ms="11516" started-at="2017-08-12T08:53:39Z" finished-at="2017-08-12T08:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:orrangehrm.OrrangeHrm@50c87b21]" name="startApp" duration-ms="9071" started-at="2017-08-12T08:53:51Z" finished-at="2017-08-12T08:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:orrangehrm.OrrangeHrm@50c87b21]" name="loginApp" duration-ms="15923" started-at="2017-08-12T08:54:00Z" depends-on-methods="orrangehrm.OrrangeHrm.startApp" finished-at="2017-08-12T08:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:orrangehrm.OrrangeHrm@50c87b21]" name="logoutApp" duration-ms="12224" started-at="2017-08-12T08:54:16Z" depends-on-methods="orrangehrm.OrrangeHrm.loginApp" finished-at="2017-08-12T08:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orrangehrm.OrrangeHrm@50c87b21]" name="closeApp" is-config="true" duration-ms="1749" started-at="2017-08-12T08:54:28Z" finished-at="2017-08-12T08:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orrangehrm.OrrangeHrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
